@@ -1,0 +1,12 @@
+﻿scene_tag,npc_name,text,on_open_commands,on_close_commands,button_1,commands_1,button_2,commands_2,button_3 ,command_3 ,button_4 ,command_4,button_5,command_5,button_6,command_6
+Welcome,Welcome,"This is the abandoned carpet factory, and we are trying to grow crops inside it. This is called Vertical Farming. But its broken and we need your help! Go downstairs to start.   ",,,,,,,,,,,,,,
+Water_start,Task 1 - Start,"Oh no the hydroponic pipes have burst! First turn off the water supply, and then fix the pipes. Come back and click on me when you think you are done. ",/function pipefix,/give @p warped_fence 2,,,,,,,,,,,,
+Water_end,Task 1 - Complete,"Well done, you have fixed the pipes! Now proceed to the next room.",,/clear,,,,,,,,,,,,
+Redstone_start,Task 2 - Start,"The grow lights are malfunctioning, the plants can't grow properly without the correct lighting. Find the ladder and fix the lights in the ceiling. Come back and click on me when you think you are done. ",,,,,,,,,,,,,,
+Redstone_end,Task 2 - Complete,"Thank you for fixing the lights, plant some seeds and watch how quickly they now grow. Once you are done head downstairs.",,"/give @p wheat_seeds 64, /give @p diamond_hoe, /give @p dirt 64",,,,,,,,,,,,
+Redstone_help,Help,"There is some extra wiring in the circuit. Figure out where this is to stop the lights flashing, then press the day button to turn them on, and the night button to turn them off. ",,,,,,,,,,,,,,
+Poison_start,Task 3 - Start,"Careful, there's a bacterial infection that has poisoned all the plants, and now you! Take the items I give you and replace all the soil with fresh dirt and replant the seeds to stop the poison. Come back and click on me when you think you are done. ",/function poisonFinished,"/give @p wheat_seeds 64, /give @p diamond_hoe, /give @p dirt 64",,,,,,,,,,,,
+Poison_end,Task 3 - Complete,"Well done, you saved the plants and yourself! Head downstairs for the final step. ",,/clear,,,,,,,,,,,,
+Broken_start,Task 4 - Start,Now you have fixed everything else we need you to fix this broken vertical farm. Use the items in the chest to get it back up and running like the ones you have already seen.,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+END OF FILE,,,,,,,,,,,,,,,,
